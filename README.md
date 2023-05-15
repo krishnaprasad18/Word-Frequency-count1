@@ -31,7 +31,8 @@ USAGE:
 
 5.Click on the "Export" button to download a CSV file of the histogram data.
 
-CONTRIBUTING Contributions are welcome! If you encounter any issues or have suggestions for improvements, please create an issue or submit a pull request.
+CONTRIBUTING:
+Contributions are welcome! If you encounter any issues or have suggestions for improvements, please create an issue or submit a pull request.
 
 ACKNOWLEDGEMENTS:
 
