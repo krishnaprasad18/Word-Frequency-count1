@@ -1,51 +1,79 @@
-WORD-FREQUENCY-COUNT APPLICATION.
-NETLIFY LINK: https://sage-ganache-4a2bb9.netlify.app
+WORD FREQUENCY COUNT APPLICATION
 
-This is a Word Frequency Count application built using React.js. It allows you to fetch the contents of a text file, calculate the frequency of each word in the text, and plot a histogram of the 20 most occurring words. Additionally, it provides an option to export the histogram data as a CSV file.
+This is a Word Frequency Count application built using React.js. It fetches the contents of a text file, calculates the frequency of each word, and visualizes the top 20 most occurring words as a histogram. It also provides an option to export the histogram data as a CSV file.
 
 FEATURES:
 
-Fetch the contents of a text file from a specified URL Calculate the frequency of occurrence of each word in the text Plot a histogram of the 20 most occurring words Export the histogram data as a CSV file
+1. Fetch the contents of a text file
+2. Calculate the frequency of occurrence of each word
+3. Visualize the top 20 most occurring words as a histogram
+4. Export the histogram data as a CSV file
+
+
+PREREQUISITES:
+
+To run this application locally, you need to have the following installed:
+Node.js
+npm (Node Package Manager)
 
 INSTALLATION:
+1. Clone the repository:
+git clone https://github.com/your-username/word-frequency-count.git
 
-1.Clone the repository: git clone https://github.com/your-username/word-frequency-count.git
+2. Navigate to the project directory:
+cd word-frequency-count
 
-2.Navigate to the project directory: cd word-frequency-count
+3. Install the dependencies:
+npm install
 
-3.Install the dependencies: npm install
+4. Start the application:
+npm start
 
-4.Start the application: npm start
-
-5.Open the application in your browser: http://localhost:3000
+5. Open the application in your browser:
+http://localhost:3000
 
 USAGE:
 
-1.On the first load, you will see a "Submit" button.
+1. Upon loading the application, you will see a "Submit" button.
 
-2.Click on the "Submit" button to fetch the contents of a text file. The application will fetch the contents from the URL https://www.terriblytinytales.com/test.txt.
+2. Click on the "Submit" button to fetch the contents of a text file. The application fetches the contents from the URL https://www.terriblytinytales.com/test.txt.
 
-3.The application will then calculate the frequency of occurrence of each word in the text.
+3. The application parses the text and calculates the frequency of occurrence of each word.
 
-4.A histogram of the 20 most occurring words will be displayed on the page. The X-axis represents the top 20 words with the highest occurrence, and the Y-axis represents how many times they occurred in the file.
+4. A histogram chart is generated, visualizing the top 20 words with the highest occurrence. The X-axis represents the words, and the Y-axis represents the number of times they occurred in the text.
 
-5.Click on the "Export" button to download a CSV file of the histogram data.
+T5. o export the histogram data, click on the "Export" button. This will download a CSV file containing the word-frequency data.
+
+COMPONENTS:
+The application consists of the following main components:
+
+1. APP: The main component that renders the Submit button, handles data fetching, word frequency calculation, and CSV export. It also renders the HistogramChart component.
+
+2. HistogramChart: A reusable component that displays the histogram chart using the Recharts library.
+
+
+LIBRARIES AND PLUGINS USED:
+The Word Frequency Count application utilizes the following libraries and plugins:
+
+1. React.js: A JavaScript library for building user interfaces.
+
+2. axios: A popular library for making HTTP requests. It is used to fetch the contents of the text file.
+
+3. recharts: A charting library for React.js that provides the components needed to visualize data as a histogram.
 
 CONTRIBUTING:
+
 Contributions are welcome! If you encounter any issues or have suggestions for improvements, please create an issue or submit a pull request.
+
 
 ACKNOWLEDGEMENTS:
 
-This application was built using React.js, a powerful JavaScript library for building user interfaces.
+1. This application was built using React.js, a powerful JavaScript library for building user interfaces.
+2. Data fetching is handled using the axios library.
+3. The histogram visualization is created using the recharts library.
 
-The data fetching is handled using the axios library.
 
-The histogram visualization is created using the recharts library.
-
-Special thanks to the developers and contributors of the libraries and resources used in this project.
-
-Feel free to customize this README file based on your specific project details, dependencies, and requirements. Provide clear instructions for installation, usage, and any other relevant information to help users understand and use your Word Frequency Count application.
-
+Please feel free to customize this README file based on your specific project details, dependencies, and requirements. Provide clear instructions for installation, usage, and any other relevant information to help users understand and use your Word Frequency Count application.
 
 
 
